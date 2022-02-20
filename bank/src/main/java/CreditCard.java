@@ -2,14 +2,24 @@ public class CreditCard {
     private boolean blocked;
     private String login;
     private String password;
-    private float invoiceAmount;
+    private double invoiceAmount;
+    private double withdrawalLimit = 1400;//ограничение на снятие суммы денег за день,
 
 
-    public CreditCard(boolean blocked, String login, String password, float invoiceAmount) {
+    public CreditCard(boolean blocked, String login, String password, double invoiceAmount, double withdrawalLimit) {
         this.blocked = blocked;
         this.login = login;
         this.password = password;
         this.invoiceAmount = invoiceAmount;
+        this.withdrawalLimit = withdrawalLimit;
+    }
+
+    public double getWithdrawalLimit() {
+        return withdrawalLimit;
+    }
+
+    public void setWithdrawalLimit(double withdrawalLimit) {
+        this.withdrawalLimit = withdrawalLimit;
     }
 
     public boolean isBlocked() {
@@ -36,11 +46,11 @@ public class CreditCard {
         this.password = password;
     }
 
-    public float getInvoiceAmount() {
+    public double getInvoiceAmount() {
         return invoiceAmount;
     }
 
-    public void setInvoiceAmount(float invoiceAmount) {
+    public void setInvoiceAmount(double invoiceAmount) {
         this.invoiceAmount = invoiceAmount;
     }
 }

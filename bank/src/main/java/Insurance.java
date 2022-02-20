@@ -1,25 +1,25 @@
 public class Insurance {
-    private float sumInsured;
-    private float insurancePaid;
+    private double sumInsured;
+    private double insurancePaid;
 
-    public Insurance(float sumInsured, float insurancePaid) {
+    public Insurance(double sumInsured, double insurancePaid) {
         this.sumInsured = sumInsured;
         this.insurancePaid = insurancePaid;
     }
 
-    public float getSumInsured() {
+    public double getSumInsured() {
         return sumInsured;
     }
 
-    public void setSumInsured(float sumInsured) {
+    public void setSumInsured(double sumInsured) {
         this.sumInsured = sumInsured;
     }
 
-    public float getInsurancePaid() {
+    public double getInsurancePaid() {
         return insurancePaid;
     }
 
-    public void setInsurancePaid(float insurancePaid) {
+    public void setInsurancePaid(double insurancePaid) {
         this.insurancePaid = insurancePaid;
     }
 }

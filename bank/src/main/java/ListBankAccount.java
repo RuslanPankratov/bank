@@ -8,4 +8,9 @@ public class ListBankAccount {
     public List<BankAccount> getBankAccountList() {
         return bankAccountList;
     }
+
+
+    public void setBankAccount(BankAccount bankAccount){
+        bankAccountList.add(bankAccount);
+    }
 }

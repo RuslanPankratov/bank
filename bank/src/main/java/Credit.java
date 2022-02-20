@@ -1,18 +1,16 @@
+import java.util.Objects;
+
 public class Credit {
 
     private double howMuchToPay; //надо выплатить ещё
     private double percentRate; // процентная ставка
     private double paid;//выплачено
     private double theTotalAmountYouPay;//сколько в общем надо выплатить
-    private double monthsToPay; //количество месяцев ещё платить
+    private double countMonthsToPay; //количество месяцев ещё платить
     private double bankProfit; //прибыль банка
     private double howMuchIsTheLoan;// сколько берёт кредита человек
-    private double paymentPerMonth;
+    private double paymentPerMonth;//сколько в месяц платить
 
-    public Credit(double monthsToPay, double howMuchIsTheLoan) {
-        this.monthsToPay = monthsToPay;
-        this.howMuchIsTheLoan = howMuchIsTheLoan;
-    }
 
     public double getPaymentPerMonth() {
         return paymentPerMonth;
@@ -30,8 +28,8 @@ public class Credit {
         this.howMuchIsTheLoan = howMuchIsTheLoan;
     }
 
-    public double getMonthsToPay() {
-        return monthsToPay;
+    public double getCountMonthsToPay() {
+        return countMonthsToPay;
     }
 
     public double getBankProfit() {
@@ -42,8 +40,8 @@ public class Credit {
         this.bankProfit = bankProfit;
     }
 
-    public void setMonthsToPay(double monthsToPay) {
-        this.monthsToPay = monthsToPay;
+    public void setCountMonthsToPay(double countMonthsToPay) {
+        this.countMonthsToPay = countMonthsToPay;
     }
 
     public double getHowMuchToPay() {
@@ -76,5 +74,18 @@ public class Credit {
 
     public void setTheTotalAmountYouPay(double theTotalAmountYouPay) {
         this.theTotalAmountYouPay = theTotalAmountYouPay;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Credit credit = (Credit) o;
+        return Double.compare(credit.howMuchToPay, howMuchToPay) == 0 && Double.compare(credit.percentRate, percentRate) == 0 && Double.compare(credit.paid, paid) == 0 && Double.compare(credit.theTotalAmountYouPay, theTotalAmountYouPay) == 0 && Double.compare(credit.countMonthsToPay, countMonthsToPay) == 0 && Double.compare(credit.bankProfit, bankProfit) == 0 && Double.compare(credit.howMuchIsTheLoan, howMuchIsTheLoan) == 0 && Double.compare(credit.paymentPerMonth, paymentPerMonth) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(howMuchToPay, percentRate, paid, theTotalAmountYouPay, countMonthsToPay, bankProfit, howMuchIsTheLoan, paymentPerMonth);
     }
 }

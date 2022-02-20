@@ -1,28 +1,27 @@
 public class Transaction {
 
-    private float amount;
+    private double amount;
     private TransactionType transactionType;
 
-    public Transaction(float amount, TransactionType transactionType) {
+    public Transaction(double amount, TransactionType transactionType) {
         this.amount = amount;
         this.transactionType = transactionType;
     }
 
 
-
-    public float getAmount() {
+    public double getAmount() {
         return amount;
     }
 
-
-
-
-    public boolean isDeposit() {
-        return TransactionType.DEPOSIT == this.transactionType;
+    public void setAmount(double amount) {
+        this.amount = amount;
     }
 
-    public boolean isWithdrawal() {
-        return TransactionType.WITHDRAWAL == this.transactionType;
+    public TransactionType getTransactionType() {
+        return transactionType;
     }
 
+    public void setTransactionType(TransactionType transactionType) {
+        this.transactionType = transactionType;
+    }
 }

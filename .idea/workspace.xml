@@ -5,22 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8b8266c-89bf-43bf-90a2-044217a41a46" name="Changes" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/main/java/CardEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/main/java/DepositOrWithdrawalCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/main/java/InsuranceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/main/java/LoanPaymentCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/main/java/PayForInsurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bank/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/bank/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bank/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/Credit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/Insurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/Insurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/InterestRateCalculation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/ListBankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/ListBankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/ListOfBankAccounts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/LoanCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/LoanCalculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/LoanInterest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/MenuOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/MenuOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/src/test/java/LoanCalculationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/test/java/LoanCalculationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bank/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +76,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit4 Test Class" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -78,7 +98,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="16" />
@@ -90,9 +110,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sorano\IdeaProjects\bank\bank" />
+      <recent name="C:\Users\Sorano\IdeaProjects\bank\bank\src" />
       <recent name="C:\Users\Sorano\IdeaProjects\bank" />
       <recent name="C:\Users\Sorano\IdeaProjects\bank\bank\src\main\java" />
     </key>
@@ -103,93 +126,60 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoanCalculationTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.CardEntry">
+    <configuration name="CardEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CardEntry" />
       <module name="bank.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MenuOne" />
-      <module name="bank.main" />
+    <configuration name="LoanCalculationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoanCalculationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoanCalculationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/bank" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;LoanCalculationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="LoanCalculationTest.NO_BENEFITSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoanCalculationTest" />
+      <option name="METHOD_NAME" value="NO_BENEFITSTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="bank [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/bank" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="LoanCalculationTest.PENSIONERTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoanCalculationTest" />
+      <option name="METHOD_NAME" value="PENSIONERTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="bank [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/bank" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="LoanCalculationTest.VETERANTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoanCalculationTest" />
+      <option name="METHOD_NAME" value="VETERANTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LoanCalculationTest" />
-        <item itemvalue="Gradle.bank [test]" />
-        <item itemvalue="Gradle.bank [dependencies]" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MenuOne" />
+        <item itemvalue="Application.CardEntry" />
+        <item itemvalue="JUnit.LoanCalculationTest" />
+        <item itemvalue="JUnit.LoanCalculationTest.NO_BENEFITSTest" />
+        <item itemvalue="JUnit.LoanCalculationTest.VETERANTest" />
+        <item itemvalue="JUnit.LoanCalculationTest.PENSIONERTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +196,12 @@
       <workItem from="1644339757676" duration="478000" />
       <workItem from="1644406423338" duration="1397000" />
       <workItem from="1644834282808" duration="7474000" />
-      <workItem from="1644919464016" duration="5564000" />
+      <workItem from="1644919464016" duration="11068000" />
+      <workItem from="1645020653137" duration="5275000" />
+      <workItem from="1645031056602" duration="1014000" />
+      <workItem from="1645094086828" duration="11072000" />
+      <workItem from="1645121435490" duration="3005000" />
+      <workItem from="1645358878202" duration="1232000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1644239895969</created>
@@ -222,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644923860861</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gitignore">
+      <created>1644925266741</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644925266741</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +252,21 @@
           <url>file://$PROJECT_DIR$/bank/src/main/java/MenuOne.java</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bank/src/main/java/LoanCalculation.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bank/src/main/java/CardEntry.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

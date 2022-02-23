@@ -2,9 +2,8 @@ public class Insurance {
     private double sumInsured;
     private double insurancePaid;
 
-    public Insurance(double sumInsured, double insurancePaid) {
+    public Insurance(double sumInsured) {
         this.sumInsured = sumInsured;
-        this.insurancePaid = insurancePaid;
     }
 
     public double getSumInsured() {

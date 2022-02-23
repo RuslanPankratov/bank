@@ -13,6 +13,9 @@ public class LoanCalculation {
     void interestRateMethod(){//сколько процентов надо платить
        double discount = 0;
 
+       if (bankAccount.getCredit() == null){
+           bankAccount.setCredit(new Credit());
+       }
         if(bankAccount.getUser().getTypeOfBenefits().equals(TypeOfBenefits.NO_BENEFITS)){
 
             customerCosting(bankAccount, currentPercentUser);

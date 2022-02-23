@@ -6,6 +6,7 @@ public class InsuranceCalculator {
     }
 
     void insurance(BankAccount bankAccount, double sum, String typeInsurance) {
+
         if (typeInsurance.equalsIgnoreCase("house")) {
             houses(bankAccount, sum);
         } else if (typeInsurance.equalsIgnoreCase("items")) {
@@ -19,19 +20,19 @@ public class InsuranceCalculator {
     }
 
 
-    void houses(BankAccount bankAccount, double sum) {
+    private void houses(BankAccount bankAccount, double sum) {
         calculate(bankAccount, sum, 200);
     }
 
-    void items(BankAccount bankAccount, double sum) {
+    private void items(BankAccount bankAccount, double sum) {
         calculate(bankAccount, sum, 100);
     }
 
-    void health(BankAccount bankAccount, double sum) {
+    private void health(BankAccount bankAccount, double sum) {
         calculate(bankAccount, sum, 110);
     }
 
-    void car(BankAccount bankAccount, double sum) {
+    private void car(BankAccount bankAccount, double sum) {
         calculate(bankAccount, sum, 20);
     }
 

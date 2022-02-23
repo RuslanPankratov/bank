@@ -9,15 +9,10 @@ public class BankAccount {
     private Credit credit;
     private Insurance insurance;
 
-    public BankAccount(User user, Transaction transaction, CreditCard creditCard, float clientId, List<Transaction>
-            transactions, Credit credit, Insurance insurance) {
+    public BankAccount(User user, CreditCard creditCard, float clientId) {
         this.user = user;
-        this.transaction = transaction;
         this.creditCard = creditCard;
         this.clientId = clientId;
-        this.transactions = transactions;
-        this.credit = credit;
-        this.insurance = insurance;
     }
 
 

@@ -3,7 +3,7 @@ public class CreditCard {
     private String login;
     private String password;
     private double invoiceAmount;
-    private double withdrawalLimit = 1400;//ограничение на снятие суммы денег за день,
+    private double withdrawalLimit;//ограничение на снятие суммы денег за день,
 
 
     public CreditCard(boolean blocked, String login, String password, double invoiceAmount, double withdrawalLimit) {

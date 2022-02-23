@@ -4,42 +4,44 @@ import java.util.Scanner;
 
 public class CardEntry {//вход на карту
 
-    public static void main(String[] args) {
-        User user = new User("Ruslan", "Pankratov", 25, TypeOfBenefits.DISABILITY_ONE_TWO);
-        Transaction transaction = new Transaction(1000.35, TransactionType.DEPOSIT);
-        CreditCard creditCard = new CreditCard(false, "log", "1111", 7834, 500000);
-        List<Transaction> transactions = new ArrayList<>();
-        transactions.add(new Transaction(10000, TransactionType.DEPOSIT));
-        transactions.add(new Transaction(10000, TransactionType.WITHDRAWAL));
-        transactions.add(new Transaction(10000, TransactionType.DEPOSIT));
-        Credit credit = new Credit();
-        Insurance insurance = new Insurance(0, 0);
-        BankAccount bankAccount = new BankAccount(user, transaction, creditCard, 2f, transactions, credit, insurance);
-
-        ListBankAccount listBankAccount = new ListBankAccount();
-
-        listBankAccount.setBankAccount(bankAccount);
-        CardEntry cardEntry = new CardEntry(listBankAccount);
-        Scanner scanner = new Scanner(System.in);
-        while (true) {
-            System.out.println("Enter login and password");
-            String log = scanner.nextLine();
-            String pas = scanner.nextLine();
-
-
-            cardEntry.enter(log, pas);
-        }
-
-    }
-
-    private ListBankAccount listBankAccount;
-    private int countBlock = 5;//5 ошибок, блокировка аккаунта, если вводился логин, но пароль был не правильный
+    private  ListBankAccount listBankAccount;
 
     public CardEntry(ListBankAccount listBankAccount) {
         this.listBankAccount = listBankAccount;
     }
 
+//    public static void main(String[] args) {
+//        User user = new User("Ruslan", "Pankratov", 25, TypeOfBenefits.DISABILITY_ONE_TWO);
+//        Transaction transaction = new Transaction(1000.35, TransactionType.DEPOSIT);
+//        CreditCard creditCard = new CreditCard(false, "log", "1111", 7834, 500000);
+//        List<Transaction> transactions = new ArrayList<>();
+//        transactions.add(new Transaction(10000, TransactionType.DEPOSIT));
+//        transactions.add(new Transaction(10000, TransactionType.WITHDRAWAL));
+//        transactions.add(new Transaction(10000, TransactionType.DEPOSIT));
+//        BankAccount bankAccount = new BankAccount(user, creditCard, 2f);
+//        bankAccount.setTransaction(transaction);
+//        bankAccount.setTransactions(transactions);
+//
+//        ListBankAccount listBankAccount = new ListBankAccount();
+//
+//        listBankAccount.setBankAccount(bankAccount);
+//        CardEntry cardEntry = new CardEntry(listBankAccount);
+//        Scanner scanner = new Scanner(System.in);
+//        while (true) {
+//            System.out.println("Enter login and password");
+//            String log = scanner.nextLine();
+//            String pas = scanner.nextLine();
+//
+//
+//            cardEntry.enter(log, pas);
+//        }
+//
+//    }
+
+    private int countBlock = 5;//5 ошибок, блокировка аккаунта, если вводился логин, но пароль был не правильный
+
     void enter(String login, String password) {
+        ListBankAccount listBankAccount = new ListBankAccount();
 
         for (int i = 0; i < listBankAccount.getBankAccountList().size(); i++) {
             String loginAccount = listBankAccount.getBankAccountList().get(i).getCreditCard().getLogin();
@@ -72,7 +74,7 @@ public class CardEntry {//вход на карту
                                 //второе ручное оплачивание
                                 //третье посмотреть сколько осталось выплатить и количество месяцев и т.д.
 
-                                methodCredit(i, listBankAccount.getBankAccountList().get(i));
+                                methodCredit( listBankAccount.getBankAccountList().get(i));
                             } else if (choice.equals("3")) {
                                 //страхование
                                 while (true) {
@@ -224,7 +226,7 @@ public class CardEntry {//вход на карту
     //второе ручное оплачивание
     //третье посмотреть сколько осталось выплатить и количество месяцев и т.д.
 
-    void methodCredit(int i, BankAccount bankAccount) {
+    void methodCredit( BankAccount bankAccount) {
         System.out.println("1: how much i want to borrow");
         System.out.println("2: manual payment ");
         System.out.println("3: current loan information");
@@ -233,7 +235,10 @@ public class CardEntry {//вход на карту
 
 
         if (result.equals("1")) {
-
+            if (bankAccount.getCredit() == null){
+                Credit credit = new Credit();
+                bankAccount.setCredit(credit);
+            }
             if (bankAccount.getCredit().getCountMonthsToPay() <= 0) {
                 //первое, это сколько я хочу взять кредита
                 //кредит будет автоматически сниматься с карты. в случае неуплаты кредита в 1 месяц,

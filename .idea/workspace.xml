@@ -5,42 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8b8266c-89bf-43bf-90a2-044217a41a46" name="Changes" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/src/main/java/CardEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/src/main/java/DepositOrWithdrawalCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/src/main/java/InsuranceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/src/main/java/LoanPaymentCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/src/main/java/PayForInsurance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/main/java/BankAccountCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/main/java/SignInOrRegisterAnAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/src/main/java/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/Credit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/CardEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/CardEntry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/src/main/java/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/CreditCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/src/main/java/Insurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/Insurance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/src/main/java/InterestRateCalculation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/src/main/java/InsuranceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/InsuranceCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/src/main/java/ListBankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/ListBankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/src/main/java/ListOfBankAccounts.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/src/main/java/LoanCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/LoanCalculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/src/main/java/LoanInterest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/src/main/java/MenuOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/MenuOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/src/main/java/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/main/java/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/src/test/java/LoanCalculationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank/src/test/java/LoanCalculationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bank/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,9 +106,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CardEntry">
+  <component name="RunManager" selected="Application.SignInOrRegisterAnAccount">
+    <configuration name="BankAccountCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankAccountCreation" />
+      <module name="bank.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CardEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CardEntry" />
+      <module name="bank.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInOrRegisterAnAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SignInOrRegisterAnAccount" />
       <module name="bank.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,33 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoanCalculationTest.PENSIONERTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bank.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoanCalculationTest" />
-      <option name="METHOD_NAME" value="PENSIONERTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoanCalculationTest.VETERANTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bank.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoanCalculationTest" />
-      <option name="METHOD_NAME" value="VETERANTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CardEntry" />
+        <item itemvalue="Application.SignInOrRegisterAnAccount" />
+        <item itemvalue="Application.BankAccountCreation" />
         <item itemvalue="JUnit.LoanCalculationTest" />
+        <item itemvalue="Application.CardEntry" />
         <item itemvalue="JUnit.LoanCalculationTest.NO_BENEFITSTest" />
-        <item itemvalue="JUnit.LoanCalculationTest.VETERANTest" />
-        <item itemvalue="JUnit.LoanCalculationTest.PENSIONERTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +175,9 @@
       <workItem from="1645031056602" duration="1014000" />
       <workItem from="1645094086828" duration="11072000" />
       <workItem from="1645121435490" duration="3005000" />
-      <workItem from="1645358878202" duration="1232000" />
+      <workItem from="1645358878202" duration="2052000" />
+      <workItem from="1645532665340" duration="4014000" />
+      <workItem from="1645617208445" duration="2992000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1644239895969</created>
@@ -224,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644925266741</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gitignore">
+      <created>1645360145174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645360145174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,12 +237,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/bank/src/main/java/LoanCalculation.java</url>
-          <line>57</line>
+          <line>60</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/bank/src/main/java/CardEntry.java</url>
-          <line>78</line>
+          <line>80</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

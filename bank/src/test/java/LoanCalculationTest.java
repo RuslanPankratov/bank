@@ -91,7 +91,9 @@ public class LoanCalculationTest {
         transactions.add(new Transaction(10000, TransactionType.DEPOSIT));
         transactions.add(new Transaction(10000, TransactionType.WITHDRAWAL));
         transactions.add(new Transaction(10000, TransactionType.DEPOSIT));
-        Credit credit = new Credit(258, 300000);
+        Credit credit = new Credit();
+        credit.setCountMonthsToPay(258);
+        credit.setHowMuchIsTheLoan(30000);
         Insurance insurance = new Insurance(0,0);
         BankAccount bankAccount = new BankAccount(user,transaction,creditCard, 2f, transactions,credit,  insurance);
         return bankAccount;
